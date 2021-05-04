@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>CONTACTUS</title>
+    </head>
+    <body>
+        <h1 color="blue" style="text-align: center"><i>SNEAKER SHOP</i></h1>
+        <img src="image/shoelogo.jfif" alt="brand logo" height="100" width="100"/> 
+        <h2><a href="footwear.html">HOME</a></h2>
+        <h2>CONTACT US</h2>
+        <p style="text-align: left">
+            ADDRESS:
+            No.6, Mahalingapuram,
+            Saidapet,
+            Chennai-28
+        </p>
+        <p><b>LOCATION</b></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.18764335595!2d80.22602051439553!3d13.023719690821746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267062758cf67%3A0x2b1bec3d14fe0d58!2sSaidapet%20Metro!5e0!3m2!1sen!2sin!4v1618812553248!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       
+        <form>
+            <table>
+                <tr>
+                   <td><label for="txtName">Name</label></td>
+                  <td><input type="text" id="txtName" required/></td>
+                </tr>
+                <tr>
+                    <td><label for="ddlcity">Country</label></td>
+                    <td>
+                        <input list="ddlCountry"/>
+                        <datalist id="ddlCountry">
+                            <option value="India"></option>
+                            <option value="US"></option>
+                            <option value="UK"></option>
+                            <option value="Africa"></option>
+                            <option value="China"></option>
+                        </datalist>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="txtremark">Remarks</label></td>
+                   <td><input type="text" id="txtremark" required/></td>
+                 </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                      <input type="radio" id="rdBMale" name="grpgender"/>Male
+                     <input type="radio" id="rdBMale" name="grpgender"/>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit"/></td>
+                    <td><input type="reset"/></td>
+                </tr>
+    </body>
+</html>
