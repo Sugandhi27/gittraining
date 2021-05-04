@@ -1,0 +1,63 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    float: left;
+    position: relative;
+    width: 80%;
+    padding: 10px 2%;
+    margin: 10px 5%;
+    background-color: palevioletred;
+    align-items: center;
+}
+.logo
+{
+    height: 100px;
+    width: 100px;
+}
+.text
+{
+    text-align: center;
+    font-size: 10;
+    font-family: sans-serif;
+}
+.button
+{
+    float: right;
+    padding: 30px;
+    margin: 10px;
+}
+.search
+{
+    height: 15px;
+    width: 15px;
+}
+.main
+{
+    background-color: rgb(241, 217, 225);
+    margin-left: 375px;
+    margin-top: 30px;
+    padding: 10px;
+    float: left;
+    position: relative;
+}
+.flower
+{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+.flower:hover
+{
+    border: powderblue;
+}
+.span
+{
+    background-color: palevioletred;
+    font-family: cursive;
+    margin: 10px;
+    padding: 5px;
+}
